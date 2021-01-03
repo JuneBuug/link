@@ -19,5 +19,5 @@ test('getIcon', () => {
   expect(getIcon('youtube')).toEqual(ICONS.YOUTUBE);
   expect(getIcon('soundcloud')).toEqual(ICONS.SOUNDCLOUD);
   expect(getIcon('medium')).toEqual(ICONS.MEDIUM);
-  expect(getIcon('medium')).toEqual(ICONS.NAVER);
+  expect(getIcon('medium')).toEqual(ICONS.);
 });

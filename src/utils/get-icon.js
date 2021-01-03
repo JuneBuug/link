@@ -56,6 +56,9 @@ const getIcon = (name: string) => {
     case 'naver':
       icon = ICONS.NAVER;
       break;
+    case 'vercel':
+      icon = ICONS.VERCEL;
+      break;
     default:
       icon = {};
       break;

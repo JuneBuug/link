@@ -14,7 +14,9 @@ const useSiteMetadata = () => {
               contacts {
                 facebook
                 linkedin
+                vercel
                 github
+                naver
                 twitter
                 telegram
                 instagram
@@ -28,7 +30,6 @@ const useSiteMetadata = () => {
                 youtube
                 soundcloud
                 medium
-                naver
               }
             }
             menu {

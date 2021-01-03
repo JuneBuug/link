@@ -51,6 +51,9 @@ const getContactHref = (name: string, contact: string) => {
     case 'naver':
       href = `https://blog.naver.com/${contact}`;
       break;
+    case 'vercel':
+      href = `https://juneyr.dev`;
+      break;
     default:
       href = contact;
       break;

@@ -19,4 +19,5 @@ test('getContactHref', () => {
   expect(getContactHref('soundcloud', '#')).toBe('https://soundcloud.com/#');
   expect(getContactHref('medium', '#')).toBe('https://medium.com/#');
   expect(getContactHref('naver', '#')).toBe('https://blog.naver.com/#');
+  expect(getContactHref('vercel', '#')).toBe('https://juneyr.dev');
 });

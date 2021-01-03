@@ -30,6 +30,7 @@ module.exports = {
     bio: '다양한 도메인에 관심이 많은, 기록가',
     contacts: {
       naver: 'ottol_',
+      vercel: ' ',
       email: '',
       facebook: '',
       telegram: '',

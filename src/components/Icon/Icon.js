@@ -6,14 +6,19 @@ type Props = {
   name: string,
   icon: {
     viewBox?: string,
-    path?: string
+    path?: string,
+    transform?: string,
+    fill?: string,
+    stroke?: string
   }
 };
 
 const Icon = ({ name, icon }: Props) => (
   <svg className={styles['icon']} viewBox={icon.viewBox}>
     <title>{name}</title>
-    <path d={icon.path} />
+    <g transform={icon.transform} fill={icon.fill} stroke={icon.stroke}>
+      <path d={icon.path} />)
+    </g>
   </svg>
 );
 

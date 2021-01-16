@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Bio Link By juneyr dev',
   subtitle: 'juneyr.dev',
-  copyright: '© All rights reserved.',
+  copyright: '© All rights reserved. 2021 June Kim',
   disqusShortname: '',
   postsPerPage: 4,
   // googleAnalyticsId: 'UA-73379983-2',

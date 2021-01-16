@@ -9,17 +9,24 @@ type Props = {
     path?: string,
     transform?: string,
     fill?: string,
-    stroke?: string
+    stroke?: string,
+    desc?: string,
   }
 };
 
 const Icon = ({ name, icon }: Props) => (
-  <svg className={styles['icon']} viewBox={icon.viewBox}>
+  <span className={styles['custom-center']}>
+    <span>{icon.desc}</span> 
+ <svg className={styles['icon']} viewBox={icon.viewBox}>
     <title>{name}</title>
     <g transform={icon.transform} fill={icon.fill} stroke={icon.stroke}>
       <path d={icon.path} />)
     </g>
   </svg>
+  
+  </span>
+ 
+  
 );
 
 export default Icon;
